@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+   
+}
+body{
+    background: #222 !important;
+}
+/* .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  } */
+  .card{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    /* margin-top: 15rem !important; */
+
+  }
+  ::placeholder{
+    color: white !important;
+    opacity: 0.7 !important;
+  }
+  input:focus{
+    outline: none !important;
+    border: none !important;
+    background: transparent !important;
+  }
+  i{
+    cursor: pointer !important;
+  }
+
